@@ -1,4 +1,30 @@
-* {
+ /* * {
     border: 1px dashed rgb(252, 0, 0);
     min-height: 10px;
+}  */
+.flex-container{
+    background-color: black;
 }
+.post{
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    margin:auto;  
+}
+.post-header{
+    display: flex;
+    padding: 10px;
+}
+.icon-3{
+    margin-left: auto;
+
+}
+.post-image>img{
+    width: 100%;
+}
+
+.post-icons img:nth-child(4){
+    padding-left: 560px;
+}
+
+
